@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.corpoUrna{
+    padding: 8%;
+    background-color:white ;
+}
+
+.urna{
+    
+    
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 70vh;
+
+}
+
+
+
+.tela{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+
+}
+
+
+.tela .numcandi {
+    text-align: center;
+    font-size: 24px;
+    width: auto;
+    margin-bottom: 50px;
+
+    
+    
+}
+
+
+.tela .numcandi input {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+
+    
+}
+
+
+.tela .numcandi input::-webkit-inner-spin-button {
+    
+    -webkit-appearance: none;
+}
+
+
+
+
+
+
+.botoes{
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.botoes > div{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin: 5px;
+}
+
+.botoes button{
+   cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgb(61, 61, 61);
+    box-shadow: 3px 3px 3px  black;
+    font-weight: 900;
+    font-size:small;
+}
+
+.botoes button:hover{
+    background-color: black;
+
+}
+
+.botoes .escolha button{
+    color: black;
+    font-weight:900;
+   
+
+}
+
+
+.botoes .escolha .confirma{
+    background-color: #52b33a;
+}
+
+.botoes .escolha .confirma:hover{
+    background-color: #3a8029;
+}
+
+.botoes .escolha .corrige{
+    background-color: #e63333;
+}
+
+.botoes .escolha .corrige:hover{
+    background-color: #ad2424;
+}
+
+.botoes .escolha .branco{
+    background-color: #ffffff;
+}
+
+.botoes .escolha .branco:hover{
+    background-color: #cccccc;
+}
+
+.resultado{
+    height: 70vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+
+.container-barra{
+    display: none;
+    height: 30px;
+    width: 500px;
+    font-size: 40px;
+       
+}
+.barra{
+    
+    height: 30px;
+    width: 100%;
+    background-color: #52b33a;
+    animation-name: barra;
+    animation-duration: 2s;
+    
+    
+}
+
+.borda{
+    height: 30px;
+    width: 100%;
+    border: solid green;
+}
+
+@keyframes barra{
+    from{
+        width: 0px;
+    }
+
+    to{
+        width: 100%; 
+    
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
